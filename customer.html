@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="fonts/css/all.css">
+
+    <title>Home</title>
+    <style>
+      .colour{
+        background: linear-gradient(to bottom, #20f0c36c 0%, #0495a86e 100%);
+      
+      }
+      .user-info img{
+        width:100%;
+        height:300px;
+      }
+      
+      
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-light navbar-expand-md shadow" style="background: #ffffff;position: fixed;width: 100%;">
+      <div class="container-fluid"><a class="navbar-brand" style="display: none;" href="#"><img src="assets/img/logo.png" width="250px"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse justify-content-end" id="navcol-1">
+              <ul class="navbar-nav">
+                  <li class="nav-item" style="margin: 0px;"><a class="nav-link active" data-bss-hover-animate="bounce" href="#home" style="color: rgb(0,0,0);font-size: 20px;">Home</a></li>
+                  <li class="nav-item"><a class="nav-link active" data-bss-hover-animate="bounce" href="#sec-3" style="color: rgb(0,0,0);font-size: 20px;">About Us</a></li>
+                  <li class="nav-item"><a class="nav-link active" data-bss-hover-animate="bounce" href="#footer1" style="border-color: rgba(0,0,0,0.9);color: rgb(0,0,0);font-size: 20px;">Contact Us</a></li>
+              </ul>
+              <div class="dropdown"><a aria-expanded="false" data-toggle="dropdown" href="#" style="color: rgb(0,0,0);font-size: 20px;">Login</a>
+                  <div class="dropdown-menu"><a class="dropdown-item" href="customer.html" style="font-size: 20px;">Customer Login</a>
+                  <!-- <a class="dropdown-item" href="#" style="font-size: 20px;">Employee Login</a> -->
+                  <a class="dropdown-item" href="#" style="font-size: 20px;">Medical Services<br> Providors Login</a></div>
+              </div>
+          </div>
+      </div>
+  </nav>
+
+<br>
+
+  <div class="container colour">
+    <div class="view-account colour">
+        <section class="module">
+            <div class="module-inner">
+              <br>
+                <div class="side-bar bg-light shadow-lg">
+                    <div class="user-info">
+                        <img class="img-profile img-circle bg-info img-responsive center-block " src="images/doctor.png" alt="">
+                        <ul class="meta list list-unstyled">
+                            <li class="name">Ankit R. Kale
+                                <label class="label label-info"><span <i class="fas fa-stethoscope"></i>&nbsp;DOCTOR</span></label>
+                            </li>
+                            <li class="email"><a href="#">ankit@gmail.com</a></li>
+                            <li class="activity">Last logged in: Today at 2:18pm</li>
+                        </ul>
+                    </div>
+            		<nav class="side-menu ">
+        				<ul class="nav bg-secondary">
+        					<li class="active"><a href="#"><span class="fa fa-user"></span> Profile</a></li>
+        					<li><a href="#"><span class="fa fa-cog"></span> Settings</a></li>
+        					<li><a href="#"><span class="fa fa-credit-card"></span> Billing</a></li>
+        					<li><a href="#"><span class="fa fa-envelope"></span> Messages</a></li>
+        					
+        					<li><a href="user-drive.html"><span class="fa fa-th"></span> Drive</a></li>
+        					<li><a href="#"><span class="fa fa-clock-o"></span> Reminders</a></li>
+        				</ul>
+        			</nav>
+                </div>
+
+                
+
+
+
+
+                <div class="content-panel shadow-lg">
+                    <form class="form-horizontal">
+                        <fieldset class="fieldset">
+                          <!-- <img src="images/pluss.jpg " class="img-fluid img-radius card-img-top h-25 offset-4 w-25"> -->
+                            <h3 class="fieldset-title">Personal Info</h3>
+                            
+                            <div class="form-group avatar">
+                                <figure class="figure col-md-2 col-sm-3 col-xs-12">
+                                    <img class="img-rounded img-responsive" src="images/doctor.png" alt="">
+                                </figure>
+                                <div class="form-inline col-md-10 col-sm-9 col-xs-12">
+                                    <input type="file" class="file-uploader pull-left">
+                                    <button type="submit" class="btn btn-sm btn-default-alt pull-left">Update Image</button>
+                                </div>
+                            </div>
+
+                           
+                           <br>
+                           <br>
+                           <br>
+        
+                            <div class="form-group">
+                              <label class="col-md-2 col-sm-3 col-xs-12 label control-label">NAME</label>
+                              <div class="col-md-10 col-sm-9 col-xs-12">
+                                  <input type="text" class="form-control" value="Ankit R. Kale">
+                              </div>
+                            </div>
+
+<br>
+                            <div class="form-group">
+                              <label class="col-md-2 col-sm-3 col-xs-12 control-label">SEX</label>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                  Male
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                  Female
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                  Other
+                                </label>
+                              </div>
+                            </div>
+
+                            <br>
+
+                            <div>
+                              <label class="col-md-2 col-sm-3 col-xs-12 control-label">DOB</label>
+                              <input type="date" value="30/11/1998">
+                            </div>
+
+                            <br>
+                            <div class="form-group">
+                                <label class="col-md-2 col-sm-3 col-xs-12 control-label">AADHAR NUMBER </label>
+                                <div class="col-md-10 col-sm-9 col-xs-12">
+                                    <input type="number" class="form-control" value="321412563214">
+                                </div>
+                            </div>
+                            <br>
+
+
+                          <br>
+
+                          <div class="form-group">
+                            <label class="col-sm-3 col-xs-12 control-label">FATHER/HUSBUND NAME</label>
+                            <div class="col-md-10 col-sm-9 col-xs-12">
+                                <input type="text" class="form-control" value="Ramesh S. Kale">
+                            </div>
+<br>
+                            <div class="form-group">
+                              <label class="col-md-2 col-sm-3 col-xs-12 control-label">MOTHER NAME</label>
+                              <div class="col-md-10 col-sm-9 col-xs-12">
+                                  <input type="text" class="form-control" value="Nita R. Kale">
+                              </div>
+                          </div>
+                          <br>
+                          <div class="form-group">
+                            <label class="col-md-2 col-sm-3 col-xs-12 control-label">ADDRESS</label>
+                            <div class="col-md-10 col-sm-9 col-xs-12">
+                                <input type="text" class="form-control" value="Plot No 22, Sarwashree Nagar, Nagpur">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                          <label class="col-md-2 col-sm-3 col-xs-12 control-label">PINCODE</label>
+                          <div class="col-md-10 col-sm-9 col-xs-12">
+                              <input type="number" class="form-control" value="440009">
+                          </div>
+                      </div>
+<br>
+                              <div class="form-group">
+                              <label class="col-md-2 col-sm-3 col-xs-12 control-label">STATE</label>
+                              <div class="col-md-10 col-sm-9 col-xs-12">
+                                  <input type="text" class="form-control" value="Maharashtra">
+                              </div>
+                          </div>
+                          <br>
+                          <div class="form-group">
+                            <label class="col-md-2 col-sm-3 col-xs-12 control-label">DISTRICT</label>
+                            <div class="col-md-10 col-sm-9 col-xs-12">
+                                <input type="text" class="form-control" value=" Nagpur">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                          <label class="col-md-2 col-sm-3 col-xs-12 control-label">COUNTRY</label>
+                          <div class="col-md-10 col-sm-9 col-xs-12">
+                              <input type="text" class="form-control" value="India">
+                          </div>
+                      </div>
+                      <br>
+                      <div class="form-group">
+                        <label class="col-md-2 col-sm-3 col-xs-12 control-label">BLOOD GROUP</label>
+                        <div class="col-md-10 col-sm-9 col-xs-12">
+                            <input type="text" class="form-control" value="A +ve">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                      <label class="  col-xs-12 control-label">NUMBER OF FAMILY MEMBERS</label>
+                      <div class="col-md-10 col-sm-9 col-xs-12">
+                          <input type="number" class="form-control" value="4">
+                      </div>
+                  </div>
+<br>
+                  <div class="form-group">
+                    <label class="col-md-2 col-sm-3 col-xs-12 control-label">PROFESSION</label>
+                    <div class="col-md-10 col-sm-9 col-xs-12">
+                        <input type="text" class="form-control" value="Doctor">
+                    </div>
+                </div>
+                <br>
+                <div class="form-group">
+                  <label class=" col-sm-3 col-xs-12 control-label">DISEASE(IF APPLICABLE)</label>
+                  <div class="col-md-10 col-sm-9 col-xs-12">
+                      <input type="text" class="form-control" value="No">
+                  </div>
+              </div>
+              <br>
+              <div class="form-group">
+                <label class=" col-sm-3 col-xs-12 control-label">MARITAL STATUS</label>
+                <div class="col-md-10 col-sm-9 col-xs-12">
+                    <input type="text" class="form-control" value="Unmaried">
+                </div>
+            </div>
+              
+                        </fieldset>
+                        <fieldset class="fieldset">
+                            <h3 class="fieldset-title">Contact Info</h3>
+                            <div class="form-group">
+                                <label class="col-md-2  col-sm-3 col-xs-12 control-label">EMAIL ID</label>
+                                <div class="col-md-10 col-sm-9 col-xs-12">
+                                    <input type="email" class="form-control" value="ankit@gmail.com">
+                                    <p class="help-block">This is the email </p>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                              <label class="col-md-2 col-sm-3 col-xs-12 control-label">MOBILE NUMBER </label>
+                              <div class="col-md-10 col-sm-9 col-xs-12">
+                                  <input type="number" class="form-control" value="9586598654">
+                              </div>
+                          </div>
+                          <br>
+                            
+                        </fieldset>
+                        <hr>
+                        <div class="form-group">
+                            <div class="col-md-10 col-sm-9 col-xs-12 col-md-push-2 col-sm-push-3 col-xs-push-0">
+                                <input class="btn btn-primary" type="submit" value="Update Profile">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+  </body>
+</html>
